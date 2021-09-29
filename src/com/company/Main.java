@@ -64,6 +64,18 @@ public class Main {
             beList.get(rndSzam).like();
         }
     }
+   /* public static void modosK(Bejegyzes b2){
+
+        String szerzo, tartalom;
+        System.out.println("2. bejegyzés módosítása:");
+        System.out.println("Szerző: ");
+        szerzo = sc.next();
+        System.out.println("Tartalom: ");
+        tartalom = sc.next();
+        getSzerkesztve();
+        Bejegyzes b2 = Bejegyzes(szerzo, tartalom);
+
+    }*/
 
 
 
@@ -82,6 +94,7 @@ public class Main {
         kettoPerb();
         beolvas("bejegyzes.txt");
         likeKi();
+        //modosK();
 
 
 
