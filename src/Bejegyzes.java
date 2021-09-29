@@ -36,4 +36,9 @@ public class Bejegyzes {
     public void like(){
         this.likeok++;
     }
+
+    @Override
+    public String toString() {
+        return this.szerzo + " - " + this.likeok +" - " + this.letrejott + "\nSzerkeztve: " + this.szerkesztve + "\n" + this.tartalom;
+    }
 }
