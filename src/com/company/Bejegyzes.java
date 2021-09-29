@@ -41,7 +41,7 @@ public class Bejegyzes {
 
     @Override
     public String toString() {
-        return this.szerzo + " - " + this.likeok +" - " + this.letrejott + "\nSzerkeztve: " + this.szerkesztve + "\n" + this.tartalom;
+        return this.szerzo + " - " + this.likeok +" - " + this.letrejott + "\nSzerkeztve: " + this.szerkesztve + "\n" + this.tartalom +"\n\n";
     }
 
 }
