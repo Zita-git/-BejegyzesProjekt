@@ -57,6 +57,15 @@ public class Main {
         }
         return beList;
     }
+    public static void likeKi(){
+        int listH = beList.size();
+        for (int i = 0; i < 20; i++) {
+            int rndSzam = rnd.nextInt(listH - 0) + 0;
+            beList.get(rndSzam).like();
+        }
+    }
+
+
 
 
 
@@ -72,6 +81,7 @@ public class Main {
 
         kettoPerb();
         beolvas("bejegyzes.txt");
+        likeKi();
 
 
 
