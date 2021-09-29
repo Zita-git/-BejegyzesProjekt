@@ -1,3 +1,5 @@
+package com.company;
+
 import java.time.LocalDateTime;
 
 public class Bejegyzes {
@@ -41,4 +43,5 @@ public class Bejegyzes {
     public String toString() {
         return this.szerzo + " - " + this.likeok +" - " + this.letrejott + "\nSzerkeztve: " + this.szerkesztve + "\n" + this.tartalom;
     }
+
 }
